@@ -18,7 +18,7 @@
     .site-title {
       font-size: 45px;
       padding-bottom: 35px;
-      padding-top: 8%;
+      padding-top: 2%;
     }
   }
   .img-mobile {
@@ -87,15 +87,20 @@
 @include mediaSm {
   body {
   }
+  .container-contact {
+    padding: 0 4vw;
+  }
   #home {
     .site-title {
       font-size: 35px;
       padding-bottom: 35px;
-      padding-top: 41%;
+      padding-top: 1%;
     }
     .img-mobile {
       width: 250px;
       height: 250px;
+      margin-top: 4%;
+      margin-bottom: 7%;
     }
   }
   main#home h1 {
